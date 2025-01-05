@@ -2,7 +2,7 @@
 
 import { Flex, Grid } from "smbls";
 
-export const Hero = {
+export const GridSelectionComponent = {
     extend: Flex,
     props: {
         padding: "B B",
