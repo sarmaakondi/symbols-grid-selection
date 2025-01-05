@@ -19,12 +19,12 @@ export const GridSelectionComponent = {
         col: 0,
         total: 0,
     },
-    Header: {},
+    GridHeader: {},
     CustomGrid: {},
-    Footer: {},
+    GridFooter: {},
 };
 
-export const Header = {
+export const GridHeader = {
     props: {
         fontSize: "14px",
         fontWeight: 600,
@@ -51,7 +51,7 @@ export const TotalSelectedCells = {
     text: `Total cells selected: {{total}}`,
 };
 
-export const Footer = {
+export const GridFooter = {
     extend: Flex,
     props: {
         width: "100%",
