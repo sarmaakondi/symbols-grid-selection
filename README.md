@@ -19,5 +19,3 @@ yarn
 ```
 yarn start
 ```
-
-# symbols-grid-selection
