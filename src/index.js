@@ -9,12 +9,19 @@ import pages from "./pages";
 create(
     {
         extend: Flex,
+
         props: {
             theme: "document",
             flow: "column",
             height: "100vh",
-            align: "center center",
+            align: "center space-between",
         },
+
+        Header: {},
+
+        content: {},
+
+        Footer: { text: "Footer" },
     },
     {
         designSystem,
